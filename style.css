@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#ADD8E6;
+}
+
+fieldset{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 5rem;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+label{
+    font-family: Verdana,  sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+input, select{
+   width: calc(100% - 80px);
+   border: solid 1 #ccc;
+   height: 30px;
+   margin-left: 40px;
+   padding: 5px;
+   margin-bottom: 10px;
+      
+}
+
+select{
+    padding-left: 10px;
+}
+
+button{
+    margin-left: 0px;
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: red;
+    color: aquamarine;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s;
+    font-family: Verdana, sans-serif;
+    font-size: 18px;
+}
+
+button:hover{
+    background-color: #DAA520;
+    color: black;
+}
+
+#resultadoGorjeta{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
+
+footer{
+    background-color: #333;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10rem;
+    
+}
+
+footer p {
+    
+    font-size: 14px;
+    color: white;
+}

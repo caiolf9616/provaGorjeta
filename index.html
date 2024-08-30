@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+        <title>Rap10</title>
+    </head>
+    <body>
+        <fieldset class="box">
+            <form action="" id="tipForm">
+                <label for="valor">Insira o valor Total da Conta</label> <br>
+                <input type="number"  id="valorConta" required> <br>
+
+                <label for="avaliacao" class="avalie">Avalie Nosso Serviço</label> <br>
+                <select name="opcoes" id="servico">
+                    <option value="selecione" disabled selected >--Selecione--</option>
+                    <option value="bom">Bom</option>
+                    <option value="regular">Regular</option>
+                    <option value="ruim">Ruim</option>
+                </select> <br> <br>
+
+                <button type="button" id="calcularGorjeta">Calcular Gorjeta</button>
+            </form>
+
+            <div id="resultadoGorjeta"></div>
+
+        </fieldset>
+        
+
+        <footer>
+            <p>
+                developed by caioFernandes &copy; 2024
+
+            </p>
+        </footer>
+    </body>
+</html>
